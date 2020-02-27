@@ -16,9 +16,9 @@ public class Bubble : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameObject.transform.position.y == 20)
+        if(gameObject.transform.position.y >= 100)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
         rb.AddForce(new Vector3(0,1,0) * speed);
     }

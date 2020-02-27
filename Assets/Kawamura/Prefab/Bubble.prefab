@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7487390002169645879}
   - component: {fileID: 7487390002169645878}
   - component: {fileID: 7487390002169645877}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bubble
   m_TagString: bubble
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7487390002169645876}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 10}
+  m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -107,7 +107,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7487390002169645876}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 9979cba05b27aaa40bc9635d517ac5ec, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

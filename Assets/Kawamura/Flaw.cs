@@ -22,7 +22,7 @@ public class Flaw : MonoBehaviour
     {
         if(bubbleInstant >= bubbleDelay)
         {
-            Instantiate(bubble,gameObject.transform);
+            Instantiate(bubble,transform.parent);
             bubbleInstant = 0;
         }
         bubbleInstant += Time.deltaTime;

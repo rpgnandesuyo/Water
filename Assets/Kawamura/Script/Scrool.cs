@@ -22,6 +22,6 @@ public class Scrool : MonoBehaviour
         {
             transform.position = new Vector3(10,0,0);
         }
-        gameObject.transform.position += vector3*Time.deltaTime; 
+        gameObject.transform.position += vector3*Time.deltaTime;
     }
 }
